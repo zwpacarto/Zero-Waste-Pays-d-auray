@@ -1,0 +1,101 @@
+{
+    "name": "Carte Commerçants Zéro Déchet Bretange SUD",
+    "mode": "server",
+    "skin": {
+        "logo": "https://i2.wp.com/zerodechetlyon.org/wp-content/uploads/2017/02/cropped-logo-carre.png?w=436&h=436&crop=1&ssl=1",
+        "title": "Carte Commercants Zero Déchet Bretagne SUD",
+        "shortDescription": "Carte Commercants Zero Dechet du Groupe Local Zéro Waste Pays d'Auray (v2019/05/09)",
+        "displayScope": false,
+        "docs": true,
+        "displayCommunexion": true,
+        "displayNotifications": false,
+        "profilBar": false,
+        "breadcrum": true,
+        "displayButtonGridList": false,
+        "class": {
+            "mainContainer": false
+        },
+        "iconeAdd": false,
+        "iconeSearchPlus": false,
+        "loginTitle": "",
+        "front": {
+            "organization": true,
+            "project": false,
+            "event": false,
+            "community": false,
+            "dda": false,
+            "live": false,
+            "search": false,
+            "need": false,
+            "poi": true
+        },
+        "menu": {
+            "aroundMe": false,
+            "connectLink": false,
+            "add": true,
+            "detail": true,
+            "news": true,
+            "directory": true,
+            "gallery": true
+        },
+
+        "open": {
+            "filter": true
+        }
+    },
+    "filter": {
+        "types": false,
+        "paramsFiltre" : {
+            "conditionBlock" : "or",
+            "conditionTagsInBlock" : "or"
+    },
+        "linksTag": {
+            "Je me nourris": {
+                "tagParent": "Alimentation",
+                "background-color": "#f5f5f5",
+                "open" : true,
+                "image": "Alimentation.png",
+                "tags": {
+                    "Boucherie": ["Boucherie", "MCMD"],
+                    "Boulangerie": ["Boulangerie", "MCMD"],
+                    "Caviste": ["Caviste", "MCMD"],
+                    "Épicerie": ["Épicerie", "MCMD"],
+                    "Fromagerie": ["Fromagerie", "MCMD"],
+                    "Pâtisserie": ["Pâtisserie", "MCMD"],
+                    "Poissonnerie": ["Poissonnerie", "MCMD"],
+                    "Restaurant": ["Restaurant", "MCMD"],
+                    "Traiteur": ["Traiteur", "MCMD"]
+                }
+            },
+            "Je prends soin de moi et de ma maison": {
+                "tagParent": "Maison",
+                "background-color": "#f5f5f5",
+                "open" : true,
+                "image": "Logement.png",
+                "tags": {
+                    "Cosmétique": ["Cosmétique", "MCMD"],
+                    "Droguerie": ["Droguerie", "MCMD"]
+                }
+            }
+        }
+    },
+    "add": {
+        "organization": true
+    },
+    "result": {
+        "displayImage": true,
+        "displayType": true,
+        "fullLocality": true,
+        "datesEvent": false,
+        "displayShortDescription": true
+    },
+    "request": {
+        "pagination": 1000,
+        "searchType": [
+            "organizations"
+        ],
+
+        "searchLocalityDEPARTEMENT": ["MORBIHAN"],
+        "searchTag": ["MCZD"]
+    }
+}
